@@ -46,4 +46,9 @@ public class Livre {
 	public void setPrix(double prix){
 		this.prix = prix;
 	}
+	// méthodes
+	public String toString(){
+		return "Le prix du livre "+this.getTitre()+" de l'auteur "+this.getAuteur()+" est de "+this.getPrix();
+	}
+	
 }
