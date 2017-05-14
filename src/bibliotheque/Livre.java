@@ -21,5 +21,29 @@ public class Livre {
 		this.prix= prix;
 	}
 	
-	//
+	//accesseurs et mutateurs
+	public int getId(){
+		return id;
+	}
+	public void setId(){
+		this.id = ++count;
+	}
+	public String getTitre(){
+		return titre;
+	}
+	public void setTitre(String titre){
+		this.titre = titre;
+	}
+	public String getAuteur(){
+		return auteur;
+	}
+	public void setAuteur(String auteur){
+		this.auteur= auteur;
+	}
+	public double getPrix(){
+		return prix;
+	}
+	public void setPrix(double prix){
+		this.prix = prix;
+	}
 }
