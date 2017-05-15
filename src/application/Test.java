@@ -12,15 +12,15 @@ public class Test {
 		
 		for(int i=0; i<livres.length; i++){
 		Scanner clavier = new Scanner(System.in);
-		String titre = "";
+		//String titre = "";
 		System.out.print("Donner le titre du livre n°"+(i+1)+" : ");
-		titre = clavier.nextLine();
-		String auteur = "";
+		String titre = clavier.nextLine();
+		//String auteur = "";
 		System.out.print("Donner l'auteur du livre n°"+(i+1)+" : ");
-		auteur = clavier.nextLine();
-		double prix = 00.00; 
+		String auteur = clavier.nextLine();
+		//double prix = 00.00; 
 		System.out.print("Donner le prix du livre n°"+(i+1)+" : ");
-		prix = clavier.nextDouble();
+		double prix = clavier.nextDouble();
 		livres[i]= new Livre(titre, auteur, prix);
 		}
 		clavier.close();
