@@ -47,8 +47,9 @@ public class Livre {
 		this.prix = prix;
 	}
 	// méthodes
+	@Override
 	public String toString(){
-		return "Le prix du livre "+this.getTitre()+" de l'auteur "+this.getAuteur()+" est de "+this.getPrix();
+		return "Le prix du livre "+this.titre+" de l'auteur "+this.auteur+" est de "+this.prix+" €";
 	}
 	
 }
